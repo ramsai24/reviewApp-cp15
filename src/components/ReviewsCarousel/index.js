@@ -44,6 +44,7 @@ class ReviewsCarousel extends Component {
               className="arrow-btn"
               type="button"
               onClick={this.decrementIndex}
+              data-testid="leftArrow"
             >
               <img
                 src="https://assets.ccbp.in/frontend/react-js/left-arrow-img.png"
@@ -60,6 +61,7 @@ class ReviewsCarousel extends Component {
               className="arrow-btn"
               type="button"
               onClick={this.incrementIndex}
+              data-testid="rightArrow"
             >
               <img
                 src="https://assets.ccbp.in/frontend/react-js/right-arrow-img.png"
