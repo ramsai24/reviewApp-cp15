@@ -1,1 +1,51 @@
 /* Write your code here */
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.each-profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 80%;
+  max-width: 1100px;
+}
+
+.title {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.username {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.arrow-btn {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
